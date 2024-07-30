@@ -5,7 +5,7 @@
 1. [Project Synopsis](#project_synopsis)
 2. [Project Resources](#project_resources)
 3. [Setup and Usage](#setup)
-4. [Demo](#video)
+4. [Demo](#demo)
 
 
 ## <a id='project_synopsis'> Project Synopsis </a>
@@ -66,7 +66,8 @@ She [MASK] walked up the hill.
 
 ```
 
-## <a id='Example'> Demo </a>
+## <a id='demo'> Demo </a>
 
 A successul run of this python script should see command line output as such:
 
+![Success](https://github.com/user-attachments/assets/1a550ad2-6d68-44ee-b732-5ea738e20c02)
