@@ -45,20 +45,11 @@ def get_mask_token_index(mask_token_id, inputs):
     Return the index of the token with the specified `mask_token_id`, or
     `None` if not present in the `inputs`.
     """
-    # input_token_ids = inputs['input_ids'] # Slice token ids from input words
     input_token_ids = inputs['input_ids'][0] # Slice token ids from input words
-    print("Input token IDs: ", input_token_ids)
-    print("mas_token_id: ", mask_token_id)
-    # special_inputs = inputs['special_tokens_mask'] # Return 1s for special tokens, 0 for non-specials
-    # print("Special tokens: ", special_inputs)
-    mask_token_index = []
     
     for i, token_id in enumerate(input_token_ids):
-        print(f"Checking {input_token_ids[i]} against {mask_token_id}")
         if token_id == mask_token_id: # Check special and search for mask token
-            # print("I believe the following object is your [MASK]..... ", inputs[token_id])
             return i
-    
     return None   # Return None if mask token not present in inputs at all
 
 
