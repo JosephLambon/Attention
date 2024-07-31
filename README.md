@@ -56,15 +56,12 @@ pip3 install -r requirements. txt
 
 ### 4. Run mask.py
 ```
-# The usage is as below.
-
 python3 mask.py 
-
+```
 You will then be prompted to input some text. This should be a sentence, including one masked word, represented with '[MASK]'. For example:
 
 She [MASK] walked up the hill.
 
-```
 
 ## <a id='demo'> Demo </a>
 
