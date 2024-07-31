@@ -59,9 +59,9 @@ pip3 install -r requirements. txt
 python3 mask.py 
 ```
 You will then be prompted to input some text. This should be a sentence, including one masked word, represented with '[MASK]'. For example:
-
-She [MASK] walked up the hill.
-
+```
+Text: She [MASK] walked up the hill.
+```
 
 ## <a id='demo'> Demo </a>
 
